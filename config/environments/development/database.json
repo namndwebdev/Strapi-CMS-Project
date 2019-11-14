@@ -3,7 +3,9 @@
   "connections": {
     "default": {
       "connector": "strapi-hook-mongoose",
-      "uri": "mongodb://localhost/project-cms",
+      "settings": {
+        "uri": "mongodb://localhost/project-cms"
+      },
       "options": {
         "authenticationDatabase": ""
       }
