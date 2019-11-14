@@ -3,7 +3,7 @@
   "connections": {
     "default": {
       "connector": "strapi-hook-mongoose",
-      "uri": "mongodb://mongo/nodemy-cms-team",
+      "uri": "mongodb://localhost/project-cms",
       "options": {
         "ssl": "true"
       }
