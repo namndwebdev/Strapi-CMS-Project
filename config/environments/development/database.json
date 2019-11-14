@@ -3,14 +3,7 @@
   "connections": {
     "default": {
       "connector": "strapi-hook-mongoose",
-      "settings": {
-        "database": "strapi-cms-project",
-        "host": "127.0.0.1",
-        "srv": false,
-        "port": 27017,
-        "username": "",
-        "password": ""
-      },
+      "uri": "mongodb://mongo/nodemy-cms-team",
       "options": {
         "authenticationDatabase": ""
       }
