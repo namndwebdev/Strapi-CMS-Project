@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "comment",
+  "info": {
+    "name": "comment",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "content": {
+      "required": true,
+      "unique": true,
+      "type": "string"
+    },
+    "account": {
+      "model": "account",
+      "via": "comments"
+    },
+    "post": {
+      "model": "post",
+      "via": "comments"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Lifecycle callbacks for the `Category` model.
+ * Lifecycle callbacks for the `Post` model.
  */
 
 module.exports = {
