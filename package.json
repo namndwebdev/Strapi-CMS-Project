@@ -22,9 +22,7 @@
     "strapi-plugin-users-permissions": "3.0.0-beta.17.5",
     "strapi-utils": "3.0.0-beta.17.5"
   },
-  "author": {
-    "name": "A Strapi developer"
-  },
+  "author": "A Strapi developer",
   "strapi": {
     "uuid": "283e7c2a-4817-45cd-b4ec-1e6db057efb1"
   },
@@ -32,5 +30,7 @@
     "node": ">=10.0.0",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "https://github.com/namndwebdev/Strapi-CMS-Project"
 }
