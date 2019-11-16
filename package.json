@@ -1,3 +1,4 @@
+
 {
   "name": "strapi-cms-project",
   "private": true,
@@ -32,5 +33,5 @@
   },
   "license": "MIT",
   "main": "index.js",
-  "repository": "https://github.com/namndwebdev/Strapi-CMS-Project"
+  "repository": "https://github.com/namndwebdev/Strapi-CMS-Project.git"
 }

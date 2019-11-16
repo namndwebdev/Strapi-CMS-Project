@@ -1,0 +1,36 @@
+{
+  "connection": "default",
+  "collectionName": "post",
+  "info": {
+    "name": "post",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "title": {
+      "unique": true,
+      "required": true,
+      "type": "string"
+    },
+    "content": {
+      "required": true,
+      "type": "richtext"
+    },
+    "Topic": {
+      "required": true,
+      "type": "string"
+    },
+    "comments": {
+      "collection": "comment"
+    },
+    "account": {
+      "model": "account",
+      "via": "posts"
+    }
+  }
+}
