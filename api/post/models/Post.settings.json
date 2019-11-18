@@ -13,7 +13,6 @@
   },
   "attributes": {
     "title": {
-      "unique": true,
       "required": true,
       "type": "string"
     },
@@ -21,14 +20,9 @@
       "required": true,
       "type": "richtext"
     },
-    "Topic": {
-      "unique": true,
+    "topic": {
       "required": true,
       "type": "string"
-    },
-    "account": {
-      "model": "account",
-      "via": "posts"
     },
     "comments": {
       "collection": "comment",

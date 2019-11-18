@@ -17,10 +17,6 @@
       "unique": true,
       "type": "string"
     },
-    "account": {
-      "model": "account",
-      "via": "comments"
-    },
     "post": {
       "model": "post",
       "via": "comments"
