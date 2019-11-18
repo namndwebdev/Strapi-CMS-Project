@@ -60,6 +60,14 @@
       "type": "integer",
       "default": "2",
       "required": true
+    },
+    "comments": {
+      "collection": "comment",
+      "via": "user"
+    },
+    "posts": {
+      "collection": "post",
+      "via": "user"
     }
   }
 }

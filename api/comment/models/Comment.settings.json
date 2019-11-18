@@ -14,12 +14,12 @@
   "attributes": {
     "content": {
       "required": true,
-      "unique": true,
       "type": "string"
     },
-    "post": {
-      "model": "post",
-      "via": "comments"
+    "user": {
+      "model": "user",
+      "via": "comments",
+      "plugin": "users-permissions"
     }
   }
 }
