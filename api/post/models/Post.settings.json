@@ -12,8 +12,11 @@
     ]
   },
   "attributes": {
+    "topic": {
+      "required": true,
+      "type": "string"
+    },
     "title": {
-      "unique": true,
       "required": true,
       "type": "string"
     },
@@ -21,16 +24,13 @@
       "required": true,
       "type": "richtext"
     },
-    "Topic": {
-      "required": true,
-      "type": "string"
-    },
     "comments": {
       "collection": "comment"
     },
-    "account": {
-      "model": "account",
-      "via": "posts"
+    "user": {
+      "model": "user",
+      "via": "posts",
+      "plugin": "users-permissions"
     }
   }
 }
